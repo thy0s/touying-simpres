@@ -111,7 +111,7 @@
       date: datetime.today(),
       institution: [Funk Town State University],
     ),
-  )'
+  )
 ```
 ]
 
