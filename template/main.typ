@@ -97,7 +97,7 @@
 - *Or* you can show it for all slides when configuring the theme...
 
 ```typst 
-  #show: touying-simprpes.with(
+  #show: touying-simpres.with(
     aspect-ratio: "16-9",
     lang: "en",
     font: "Source Sans 3",
