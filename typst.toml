@@ -1,6 +1,6 @@
 [package]
 name = "touying-simpres"
-version = "0.1.0"
+version = "0.2.0"
 compiler = "0.14.2"
 entrypoint = "lib.typ"
 authors = ["thy0s <https://github.com/thy0s>"]
