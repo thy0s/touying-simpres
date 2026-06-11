@@ -5,7 +5,7 @@
 /// - https://github.com/touying-typ/touying/blob/main/themes/metropolis.typ
 /// - https://github.com/JoshuaLampert/clean-math-presentation
 
-#import "@preview/touying:0.6.1": *
+#import "@preview/touying:0.7.4": *
 
 /// Standard content "slide":
 /// - "title" (string) sets the title if function is called directly.
@@ -168,7 +168,8 @@
 /// "touying-criterion":
 /// - "aspect-ratio" - Set the format of the slides (default: 16-9), (alternatively 4-3)
 /// - "lang" (ISO 639-1/2/3 language code) - Set the language of the presentation (default: "en")
-/// - "font" - Set the font of your choosing (default: Source Sans 3) Available at: https://api.fontsource.org/v1/download/source-sans-3
+/// - "font" - Set the font of your choosing (default: Source Sans 3) Available at: https://github.com/adobe-fonts/source-sans
+/// - "font-raw" - Set the monospace font of your choosing (default: Source Code Pro) Available at: https://github.com/adobe-fonts/source-code-pro
 /// - "text-size" - Set font size for the text body (default: 22pt)
 /// - "show-level-one" (bool) - Show the section heading on the contents slides (defualt: true)
 /// - "footer" - Set the default footer for content slides (can be overridden for individual slides)
@@ -176,13 +177,16 @@
   aspect-ratio: "16-9",
   lang: "en",
   font: "Source Sans 3",
+  font-raw: "Source Code Pro",
   text-size: 22pt,
+  text-size-raw: 11pt,
   show-level-one: true,
   footer: none,
   ..args,
   body,
 ) = {
   set text(size: text-size, font: font, lang: lang)
+  show raw: set text(size: text-size-raw, font: font-raw)
   show: touying-slides.with(
     config-page(
       paper: "presentation-" + aspect-ratio,
