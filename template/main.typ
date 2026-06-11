@@ -91,7 +91,9 @@
     aspect-ratio: "16-9",
     lang: "en",
     font: "Source Sans 3",
+    font-raw: "Source Code Pro"
     text-size: 22pt,
+    text-size-raw: 11pt,
     show-level-one: false,
     footer: [#datetime.today().display("[year]-[month]-[day]")], 
     config-info(
