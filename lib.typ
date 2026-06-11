@@ -171,6 +171,7 @@
 /// - "font" - Set the font of your choosing (default: Source Sans 3) Available at: https://github.com/adobe-fonts/source-sans
 /// - "font-raw" - Set the monospace font of your choosing (default: Source Code Pro) Available at: https://github.com/adobe-fonts/source-code-pro
 /// - "text-size" - Set font size for the text body (default: 22pt)
+/// - "text-size-raw" - Set font size for text of type raw (default: 11pt)
 /// - "show-level-one" (bool) - Show the section heading on the contents slides (defualt: true)
 /// - "footer" - Set the default footer for content slides (can be overridden for individual slides)
 #let touying-simpres(
