@@ -1,5 +1,5 @@
-#import "@preview/touying:0.6.1": *
-#import "@preview/cetz:0.4.2"
+#import "@preview/touying:0.7.4": *
+#import "@preview/cetz:0.5.2"
 #import "../lib.typ": *
 
 #show raw: set text(size: 12pt)
