@@ -165,7 +165,7 @@
 })
 
 
-/// "touying-criterion":
+/// "touying-simpres":
 /// - "aspect-ratio" - Set the format of the slides (default: 16-9), (alternatively 4-3)
 /// - "lang" (ISO 639-1/2/3 language code) - Set the language of the presentation (default: "en")
 /// - "font" - Set the font of your choosing (default: Source Sans 3) Available at: https://github.com/adobe-fonts/source-sans
