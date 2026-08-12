@@ -57,7 +57,7 @@ The template also shows a `#new-section-slide` for every level one heading and a
 Parts of this template were inspired by and taken from the [university theme](https://github.com/touying-typ/touying/blob/f9833db352bb1031e1a35a2210427cec15e4e997/themes/university.typ) and the [metropolis theme](https://github.com/touying-typ/touying/blob/f9833db352bb1031e1a35a2210427cec15e4e997/themes/metropolis.typ) aswell as the [clean-math-presentation](https://github.com/JoshuaLampert/clean-math-presentation).
 
 ## Contribution
-If you have any problems with this template feel free to open an issue. Also, if you have anything useful to add to this template, you can open a pull request and it will be looked at (it might take some time :disappointed_relieved:).
+If you have any problems with this template feel free to open an issue. Also, if you have anything useful to add to this template, you can open a pull request and it will be looked at. It might take some time... :disappointed_relieved:
 
 All constructive contributions are welcome and highly appreciated!
 
